@@ -142,10 +142,7 @@ class ReceiptSend extends React.Component {
             <DialogContentText>
               영수증 정보: {this.props.tokenUri}
             </DialogContentText>
-            <TextareaComponent
-              handleValueChangeQR={this.handleValueChangeQR}
-              someValue="333"
-            />
+
             <TextField
               required
               fullWidth

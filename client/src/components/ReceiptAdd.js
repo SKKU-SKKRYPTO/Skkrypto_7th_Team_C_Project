@@ -113,10 +113,6 @@ class ReceiptAdd extends React.Component {
         <Dialog open={this.state.open} onClose={this.handleClose}>
           <DialogTitle>영수증 발행하기</DialogTitle>
           <DialogContent>
-            <TextareaComponent
-              handleValueChangeQR={this.handleValueChangeQR}
-              someValue="333"
-            />
             <TextField
               label="수령인 지갑 주소"
               type="text"
